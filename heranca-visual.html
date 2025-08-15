@@ -360,6 +360,106 @@
             background: #4caf50;
             color: white;
         }
+
+        /* ------------------------------
+         * RESPONSIVE DESIGN FOR MOBILE
+         * ------------------------------ */
+        @media (max-width: 900px) {
+            .container {
+                padding: 20px 10px;
+            }
+            .two-columns {
+                grid-template-columns: 1fr;
+            }
+            .summary-cards {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+            .operation-flow {
+                padding: 18px;
+            }
+        }
+
+        @media (max-width: 700px) {
+            h1 {
+                font-size: 22px;
+            }
+            .key-message h2 {
+                font-size: 18px;
+            }
+            .key-message p {
+                font-size: 15px;
+            }
+            .table-header {
+                font-size: 15px;
+                padding: 10px 6px;
+            }
+            .summary-value {
+                font-size: 20px;
+            }
+            .footer-note {
+                font-size: 13px;
+                padding: 12px 8px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px 2vw;
+                border-radius: 0;
+                box-shadow: none;
+            }
+            .operation-flow {
+                padding: 8px;
+            }
+            .flow-title {
+                font-size: 16px;
+            }
+            .flow-steps {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+            .flow-arrow {
+                display: none;
+            }
+            .summary-cards {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+            .two-columns {
+                grid-template-columns: 1fr;
+                gap: 18px;
+            }
+            .asset-block,
+            .asset-block.highlight {
+                padding: 12px;
+            }
+            .division-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
+            }
+            th, td {
+                padding: 6px 4px;
+                font-size: 12px;
+            }
+            .asset-title {
+                font-size: 15px;
+            }
+            .asset-icon {
+                width: 28px;
+                height: 28px;
+                font-size: 15px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .summary-value {
+                font-size: 15px;
+            }
+            .key-message {
+                padding: 10px 3vw;
+            }
+        }
     </style>
 </head>
 <body>
@@ -531,8 +631,10 @@
         
         <div class="footer-note">
             <strong>Importante:</strong>
-            A operação é matematicamente justa. Rose antecipa exatamente sua parte (R$ 200.000) usando sua cota integral da Casa Santos mais parte da Brasilprev. Os demais herdeiros recebem compensação de R$ 12.452 cada através do ajuste de percentuais na Brasilprev, garantindo equilíbrio patrimonial.
+            A operação é matematicamente justa. Rose antecipa exatamente sua parte (R$ 200.000) usando sua cota integral da Casa Santos mais parte da Brasilprev. Os demais herdeiros recebem compens[...]
         </div>
     </div>
+</body>
+</html>
 </body>
 </html>
